@@ -24,6 +24,7 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #e71d36;
     padding: 25px 60px;
     margin-bottom: 30px;
@@ -172,4 +173,26 @@ a{
 
 .cart-item-price{
     background-color: lightblue;
+}
+
+.checkout{
+    background-color: #ffff;
+    padding: 2px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.removeall{
+    background-color: #e71d36;
+    padding: 2px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
 }
